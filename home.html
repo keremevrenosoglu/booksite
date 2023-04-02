@@ -19,15 +19,19 @@ table {
 </div>
 
 <h1>Selling books</h1>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Buying')">Buying</button>
+  <button class="tablinks" onclick="openCity(event, 'Selling')">Selling</button>
+</div>
 
 <form action="/action_page.php">
-	<label for="info">Title of the book:</label><br>
-	<input type="text" id="info" name="info"><br>
-	<label for="fname">Name:</label><br>
-	<input type="text" id="fname" name="fname"><br>
-	<label for="email">email:</label><br>
-	<input type="text" id="email" name="email"><br>
-	<label for="phone">Phone number:</label><br>
+	<label for="info">Title of the book:</label>
+	<input type="text" id="info" name="info"><br><br>
+	<label for="fname">Name:</label>
+	<input type="text" id="fname" name="fname"><br><br>
+	<label for="email">email:</label>
+	<input type="text" id="email" name="email"><br><br>
+	<label for="phone">Phone number:</label>
 	<input type="text" id="phone" name="phone"><br><br>
 	<input type="submit" value="Post">
 </form>
